@@ -1,5 +1,4 @@
 function [W_pre,S_pre,Ft_pre,acc_best]=DGLFS(Xs,Ys,Xt,Yt,Ft_init,S_init,options)
-%% set parameters
 epsilon = 1e-5; 
 p = options.p;
 lammda1=options.lammda1;
